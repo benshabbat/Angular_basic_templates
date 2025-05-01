@@ -30,8 +30,15 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     background-color: #b15252;
+    text-decoration: none;
 }
 .navbar-li a:hover{
     background-color: #fff;
     color: #b87272;
+}
+.navbar-li a.active {
+    background-color: #fff;
+    color: #b87272;
+    font-weight: bold; /* Optional: Highlight the active link */
+    border: 1px solid #b87272; /* Optional: Add a border for better visibility */
 }
